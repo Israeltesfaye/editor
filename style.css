@@ -1,0 +1,59 @@
+body{
+  padding:0;
+  margin:0;
+  background-color:#222;
+  color:white;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  height:10%;
+  width:100%;
+}
+nav a{
+  background-color:red;
+  border-radius:15px;
+  padding:5%;
+  width:10%;
+  text-align:center;
+}
+.new-project{
+  width:60%;
+  height:10%;
+  background-color:#333;
+  position:absolute;
+  top:30%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius:10px;
+  display:none;
+}
+.new-project-btn{
+ position:absolute;
+  top:30%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius:10px;
+  background-color:red;
+  border-color:red;
+  height:10%;
+  width:20%;
+}
+.projects{
+  position:absolute;
+  top:50%;
+  width:100%;
+}
+.projects div{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  border:2px solid red;
+}
+.projects div a{
+  color:white;
+  text-decoration:none;
+}
+.projects div a img{
+  background-color:transparent;
+}

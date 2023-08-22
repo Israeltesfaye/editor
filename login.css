@@ -1,0 +1,70 @@
+body{
+ margin:0;
+ padding:0;
+ background-color:#222;
+ color:white;
+}
+.login{
+  width:60%;
+  height:30%;
+  border:2px solid orangered;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius:10px;
+}
+.register{
+  width:60%;
+  height:40%;
+  border:2px solid orangered;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius:10px;
+}
+
+.register div,.login div{
+  display:grid;
+place-items:center;
+}
+.register div input,.login div input{
+  width:90%;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-bottom:2px solid orangered;
+  margin-bottom:5%;
+  background-color:transparent;
+  color:white;
+}
+.register div label,register div label{
+  margin-top:12%;
+}
+.login div #loginBtn{
+  background-color:orangered;
+  border:solid 2px orangered;
+  border-radius:10px;
+  color:white;
+  width:40%;
+  height:15%;
+  position:absolute;
+  bottom:5%;
+}
+#name{
+  display:none;
+}
+#name label{
+  margin-left:25%;
+}
+.register #registerBtn{
+  bottom:0%;
+  position:absolute;
+  background-color:orangered;
+  border:solid 2px orangered;
+  border-radius:10px;
+  color:white;
+  width:40%;
+  height:15%;
+}
