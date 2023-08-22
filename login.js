@@ -28,7 +28,7 @@ registerBtn.onclick=async()=>{
    location.href='login.html'
   }
   if(!request.ok){
-    alert(requestFinal)
+    alert("please try again")
   }
 }}
 if (loginBtn!=null) {
